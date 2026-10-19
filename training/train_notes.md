@@ -53,6 +53,15 @@ The test set is used for evaluation after each epoch. Selecting a checkpoint bas
 
 ### Learning Progress
 
+The model was trained for 10 epochs on a CPU.
+
+| Metric                  |     Result |
+| ----------------------- | ---------: |
+| Best test accuracy      | **78.88%** |
+| Best epoch              |          5 |
+| Final training accuracy |     96.04% |
+| Final test accuracy     |     78.04% |
+
 Training loss decreased consistently, while training accuracy increased from 58.02% to 96.04%.
 
 Test accuracy improved rapidly during the first five epochs, reaching its highest value of **78.88% at Epoch 5**.
